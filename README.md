@@ -1,2 +1,2 @@
 # calc-demo
-Hello there
+Hello from bug-fix
