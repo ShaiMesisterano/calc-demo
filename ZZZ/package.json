@@ -1,0 +1,31 @@
+{
+  "name": "blindjs",
+  "version": "1.0.1",
+  "description": "BlindJS is an extremely useful tool for lectures, lessons and presentations. It allows you to write code samples quickly and without any chance for mistakes. BlindJS is a Javascript library that replaces content with pre-defined code in your code editor or web page",
+  "main": "index.js",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "build": "webpack; cp src/blind.js extensions/vscode/lib/blind.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShaiMesisterano/BlindJS.git"
+  },
+  "author": "Shai Mesisterano",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ShaiMesisterano/BlindJS/issues"
+  },
+  "homepage": "https://github.com/ShaiMesisterano/BlindJS#readme",
+  "devDependencies": {
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10"
+  },
+  "dependencies": {
+    "babel-loader": "^8.0.6",
+    "babel-preset-es2015": "^6.24.1"
+  }
+}
